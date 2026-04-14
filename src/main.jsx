@@ -8,11 +8,11 @@ import './index.css'; // Importamos nuestra hoja de estilos limpio
 import { FavoritesProvider } from './context/FavoritesContext.jsx';
 
 createRoot(document.getElementById('root')).render(
-    <StrictMode>
-        <BrowserRouter>
-            <FavoritesProvider>
-                <App />
-            </FavoritesProvider>
-        </BrowserRouter>
-    </StrictMode>
+  <StrictMode>
+    <BrowserRouter>
+      <FavoritesProvider>
+        <App />
+      </FavoritesProvider>
+    </BrowserRouter>
+  </StrictMode>
 );
